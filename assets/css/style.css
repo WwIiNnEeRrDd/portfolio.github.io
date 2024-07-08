@@ -6,8 +6,6 @@ html {
   background-color: black;
 }
 
-/* Navbar activo-inactivo */
-
 /* Información principal de mí */
 .hero-section {
   display: flex;
@@ -23,13 +21,27 @@ html {
   font-weight: 300;
   margin-bottom: 3%;
 }
-
 .pedri {
   border-radius: 100%;
   height: 300px;
   width: auto;
 }
+#redes {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  gap: 1%;
+  margin-bottom: 2%;
+}
 
+/* .si {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+/* More info */
 .card {
   width: 15%;
 }
