@@ -35,11 +35,6 @@ html {
 }
 
 /* More info */
-
-.git-info p {
-  margin: 1%;
-}
-
 .row {
   display: flex;
   justify-content: center;
@@ -59,4 +54,21 @@ html {
 
 #more-info img {
   border-radius: 6px;
+}
+
+#logoUtp {
+  height: 200px;
+  width: auto;
+}
+
+.experiencia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.accordion {
+  margin-top: 3%;
+  width: 60%;
 }
