@@ -35,19 +35,26 @@ html {
 }
 
 /* More info */
-.card {
-  width: 15%;
-}
 
 .git-info p {
   margin: 1%;
 }
 
-.card {
-  min-width: 250px;
+.row {
+  display: flex;
+  justify-content: center;
 }
-.card img {
-  width: 100%;
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Esto asegura que la imagen se ajuste a las dimensiones sin distorsionarse */
 }
 
 #more-info img {
